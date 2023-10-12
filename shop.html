@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>shop</title>
+</head>
+<body>
+    <div class="preview"  id="preview">
+
+        <div class="fade-down"></div>
+
+        <div class="header">
+            <a href="index.html">
+                <img src="./images/yamada word white.png" alt="">
+            </a>
+            <ul>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="form.html">Register</a></li>
+            </ul>
+        </div>
+
+        <div class="fade-up"></div>
+
+        <div class="models">
+            <ul>
+                <li><a href="#" id="model1">Model 1</a></li>
+                <li><a href="#" id="model2">Model 2</a></li>
+                <li><a href="#" id="model3">Model 3</a></li>
+                <li><a href="#" id="model4">Model 4</a></li>
+            </ul>
+        </div>
+    </div>
+
+<script>
+        var prev = document.getElementById("preview");
+        var mod1 = document.getElementById("model1");
+        var mod2 = document.getElementById("model2");
+        var mod3 = document.getElementById("model3");
+        var mod4 = document.getElementById("model4");
+
+        mod1.onclick = function(){
+            prev.style.backgroundImage = "url(./images/model-1.png)"
+            mod1.style.fontSize = "24px"
+            mod2.style.fontSize = "19px"
+            mod3.style.fontSize = "19px"
+            mod4.style.fontSize = "19px"
+            mod1.style.color = "white"
+            mod2.style.color = "rgb(210, 210, 210)"
+            mod3.style.color = "rgb(210, 210, 210)"
+            mod4.style.color = "rgb(210, 210, 210)"
+        }
+        mod2.onclick = function(){
+            prev.style.backgroundImage = "url(./images/model-2.png)"
+            mod1.style.fontSize = "19px"
+            mod2.style.fontSize = "24px"
+            mod3.style.fontSize = "19px"
+            mod4.style.fontSize = "19px"
+            mod1.style.color = "rgb(210, 210, 210)"
+            mod2.style.color = "white"
+            mod3.style.color = "rgb(210, 210, 210)"
+            mod4.style.color = "rgb(210, 210, 210)"
+        }
+        mod3.onclick = function(){
+            prev.style.backgroundImage = "url(./images/model-3.png)"
+            mod1.style.fontSize = "19px"
+            mod2.style.fontSize = "19px"
+            mod3.style.fontSize = "24px"
+            mod4.style.fontSize = "19px"
+            mod1.style.color = "rgb(210, 210, 210)"
+            mod2.style.color = "rgb(210, 210, 210)"
+            mod3.style.color = "white"
+            mod4.style.color = "rgb(210, 210, 210)"
+        }
+        mod4.onclick = function(){
+            prev.style.backgroundImage = "url(./images/model-4.png)"
+            mod1.style.fontSize = "19px"
+            mod2.style.fontSize = "19px"
+            mod3.style.fontSize = "19px"
+            mod4.style.fontSize = "24px"
+            mod1.style.color = "rgb(210, 210, 210)"
+            mod2.style.color = "rgb(210, 210, 210)"
+            mod3.style.color = "rgb(210, 210, 210)"
+            mod4.style.color = "white"
+        }
+</script>
+
+</body>
+</html>
